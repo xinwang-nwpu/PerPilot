@@ -1,9 +1,9 @@
 # coding=utf-8
-from XAGENT.api import inference_chat2, append_to_file
-from XAGENT.chat import personalization_chat
-from XAGENT.prompt import get_explore_prompt
-from XAGENT.personalization import personalization_solve
-from XAGENT.Semantic_Analysis import semantic_analysis
+from api import inference_chat2, append_to_file
+from chat import personalization_chat
+from prompt import get_explore_prompt
+from personalization import personalization_solve
+from Semantic_Analysis import semantic_analysis
 from run import XAgent
 from XAGENT.controller import home
 import json
