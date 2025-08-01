@@ -67,7 +67,7 @@ We are actively working on expanding the PerPilot ecosystem with these upcoming 
 
 1. **Enhanced Mobile Agents**
 
-   Release of v2 versions with plug-and-play modules:
+   Release of agent with plug-and-play modules:
 
 * `mobile-agent v2`: Next-gen core agent with improved perception capabilities
 
@@ -83,7 +83,6 @@ We are actively working on expanding the PerPilot ecosystem with these upcoming 
 
 * Additional multilingual personalized instruction samples
 
-* Enhanced contextual metadata for better model training
 
 1. **Comprehensive Benchmark Results**
 
@@ -92,8 +91,6 @@ We are actively working on expanding the PerPilot ecosystem with these upcoming 
 * Task completion accuracy metrics
 
 * User intervention frequency analysis
-
-* Comparative studies with state-of-the-art mobile agents
 
 ## 📝 Conclusion
 
