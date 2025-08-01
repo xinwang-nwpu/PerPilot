@@ -12,7 +12,7 @@ Modern mobile agents face significant limitations when processing:
 
 * Ambiguous user requests requiring contextual understanding
 
-* User-specific instructions Depends on personal preferences or historical interactions
+* User-specific instructions depends on personal preferences or historical interactions
 
 * Task execution in diverse mobile scenarios with minimal intervention
 
@@ -61,11 +61,43 @@ Our evaluations demonstrate that PerPilot:
 
 * Establishes the importance of personalization-aware reasoning for next-generation agents
 
-## 🌟 Conclusion
+## 🌟 Coming Soon
+
+We are actively working on expanding the PerPilot ecosystem with these upcoming features:
+
+1. **Enhanced Mobile Agents**
+
+   Release of v2 versions with plug-and-play modules:
+
+* `mobile-agent v2`: Next-gen core agent with improved perception capabilities
+
+* `uitars`: Specialized agent for UI interaction tasks
+
+* `appagent`: Application-specific task execution module
+
+1. **Dataset Expansion**
+
+   PerInstruct will be expanded with:
+
+* More diverse mobile scenarios and use cases
+
+* Additional multilingual personalized instruction samples
+
+* Enhanced contextual metadata for better model training
+
+1. **Comprehensive Benchmark Results**
+
+   Detailed performance evaluations of the three agents across:
+
+* Task completion accuracy metrics
+
+* User intervention frequency analysis
+
+* Comparative studies with state-of-the-art mobile agents
+
+## 📝 Conclusion
 
 PerPilot represents a significant step forward in creating more intuitive and user-centric mobile agents. By combining memory-based retrieval with advanced reasoning capabilities, our framework paves the way for more natural human-machine interaction in mobile environments.
 
 > （注：文档部分内容可能由 AI 生成）
-
-
 
