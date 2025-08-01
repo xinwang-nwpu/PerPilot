@@ -28,7 +28,6 @@ def inference_chat(chat, model, api_url, token, think=True):
             extra_body={"enable_thinking": think}
         )
 
-        # 收集所有流式片段
         for chunk in stream:
             if chunk.choices[0].delta.content is not None:
                 full_response += chunk.choices[0].delta.content
