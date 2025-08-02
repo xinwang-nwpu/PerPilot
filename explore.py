@@ -1,4 +1,3 @@
-# coding=utf-8
 from api import inference_chat2, append_to_file
 from chat import personalization_chat
 from prompt import get_explore_prompt
@@ -12,10 +11,8 @@ from tkinter import messagebox
 
 
 def tixin():
-    # 创建隐藏的主窗口
     root = tk.Tk()
     root.withdraw()
-    # 显示更醒目的弹窗
     root.tk.call('wm', 'attributes', '.', '-topmost', '1')
     messagebox.showwarning("system",
                            "⚠️ import ⚠️\n\n"
@@ -24,7 +21,6 @@ def tixin():
 
 
 def update_config_instruction(config, json_file_path, target_id):
-    # 读取JSON数据
     try:
         with open(json_file_path, 'r', encoding='utf-8') as file:
             json_data = json.load(file)
@@ -35,7 +31,6 @@ def update_config_instruction(config, json_file_path, target_id):
         print(f"fail to parse {json_file_path}")
         return config
 
-    # 查找对应的instruction
     instruction = None
     difficult = None
     for item in json_data:
@@ -44,7 +39,6 @@ def update_config_instruction(config, json_file_path, target_id):
             difficult = item.get('difficulty')
             break
 
-    # 更新配置
     if instruction:
         config['instruction'] = instruction
         config['difficulty'] = difficult
