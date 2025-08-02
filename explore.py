@@ -1,4 +1,4 @@
-from api import inference_chat2, append_to_file
+from api import inference_chat, append_to_file
 from chat import personalization_chat
 from prompt import get_explore_prompt
 from personalization import personalization_solve
@@ -55,7 +55,7 @@ def explore_solve(instruction, api_url, token, model, id):
 
         append_to_file(id, f"instruction:{instruction}")
         append_to_file(id, f"Personalized processing phase")
-        response = inference_chat2(chat_history, model, api_url, token)
+        response = inference_chat(chat_history, model, api_url, token)
         response = response.replace('\n', '')
         print(f"Extract personalization elements:{response}")
         chat_history.append(("assistant", response))
@@ -73,7 +73,7 @@ def explore_solve(instruction, api_url, token, model, id):
                 append_to_file(id, f"Exploration phase")
                 append_to_file(id, f"Lack of personalization information:{b}")
                 chat_history.append(("user", get_explore_prompt(b, instruction)))
-                response = inference_chat2(chat_history, model, api_url, token)
+                response = inference_chat(chat_history, model, api_url, token)
                 response = response.split('\n')
                 append_to_file(id, f"Generated exploration instructions:{response}")
                 for i in range(min(len(b), len(response))):
