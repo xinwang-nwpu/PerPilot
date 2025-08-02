@@ -4,7 +4,7 @@ from prompt import personalization_solve_prompt, get_personalization_message_pro
 
 
 def personalization_solve(instruction, chat_history, api_url, token):
-    response = inference_chat(chat_history, "qwen3-235b-a22b", api_url, token,True)
+    response = inference_chat(chat_history, "o4-mini", api_url, token,True)
     print("First response:", response)
     chat_history.append(("assistant", response))
 
@@ -13,7 +13,7 @@ def personalization_solve(instruction, chat_history, api_url, token):
 
     if response.startswith("Yes"):
         chat_history.append(("user", personalization_solve_prompt(knowledge)))
-        response = inference_chat(chat_history, "qwen3-235b-a22b", api_url, token,True)
+        response = inference_chat(chat_history, "o4-mini", api_url, token,True)
         print("Second response:", response)
         chat_history.append(("assistant", response)) 
         if response.startswith("No"):
@@ -26,7 +26,7 @@ def personalization_solve(instruction, chat_history, api_url, token):
             f = open("personalization.txt", "r+", encoding="utf-8")
             temp_message = f.read()
             chat_history.append(("user", get_personalization_message_prompt(temp_message)))
-            response = inference_chat(chat_history, "qwen3-235b-a22b", api_url, token,False)
+            response = inference_chat(chat_history, "o4-mini", api_url, token,False)
             print("Third response:", response)
         instruction = response
     f.close()
