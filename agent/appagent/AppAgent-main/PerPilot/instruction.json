@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "difficulty": "easy",
+    "instruction": "Open Map and navigate to xian",
+    "pre": "",
+    "app": "Baidumap",
+    "step": 6,
+    "preinstruction": "Open Map and navigate to {place name}",
+    "inf": "place name"
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "instruction": "call David",
+    "pre": "",
+    "app": "Phone",
+    "step": 4,
+    "preinstruction": "call {name}",
+    "inf": "name"
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "instruction": "Create a birthday schedule for May 20th",
+    "pre": "",
+    "app": "Calendar",
+    "step": 6,
+    "preinstruction": "Create a birthday schedule for {date}",
+    "inf": "date"
+  },
+  {
+    "id": 4,
+    "difficulty": "easy",
+    "instruction": "Open the settings to unload less commonly used network disks app",
+    "pre": "less commonly used network disks app",
+    "app": "Settings",
+    "step": 7,
+    "preinstruction": "Open the settings to unload {app name}",
+    "inf": "app name"
+  },
+  {
+    "id": 5,
+    "difficulty": "easy",
+    "instruction": "Set an alarm for 7:30 in the morning",
+    "pre": "",
+    "app": "Clock",
+    "step": 5,
+    "preinstruction": "Set an alarm for {time} in the morning",
+    "inf": "time"
+  },
+  {
+    "id": 6,
+    "difficulty": "easy",
+    "instruction": "Open the bilibili to praise the latest video of the favorite upmaster",
+    "pre": "Favorite upmaster",
+    "app": "Bilibili",
+    "step": 6,
+    "preinstruction": "Open the bilibili to praise the latest video of {up name}",
+    "inf": "up name"
+  },
+  {
+    "id": 7,
+    "difficulty": "easy",
+    "instruction": "Play the song 'Something Just Like This'",
+    "pre": "",
+    "app": "NetEase Cloud Music",
+    "step": 5,
+    "preinstruction": "Play the song {song name}",
+    "inf": "song name"
+  },
+  {
+    "id": 8,
+    "difficulty": "easy",
+    "instruction": "Take a taxi to Northwestern Polytechnical University",
+    "pre": "",
+    "app": "Didi Chuxing",
+    "step": 6,
+    "preinstruction": "Take a taxi to {place name}",
+    "inf": "place name"
+  },
+  {
+    "id": 9,
+    "difficulty": "easy",
+    "instruction": "Open Pinduoduo to collect one often bought snack",
+    "pre": "often bought snack",
+    "app": "Pinduoduo",
+    "step": 6,
+    "preinstruction": "Open Pinduoduo to collect one {snack name}",
+    "inf": "snack name"
+  },
+  {
+    "id": 10,
+    "difficulty": "easy",
+    "instruction": "Order a dumping takeout",
+    "pre": "",
+    "app": "elm.me.me",
+    "step": 7,
+    "preinstruction": "Order a {food name}",
+    "inf": "food name"
+  },
+  {
+    "id": 11,
+    "difficulty": "easy",
+    "instruction": "Open WeChat to reply hello to friend",
+    "pre": "Friend",
+    "app": "WeChat",
+    "step": 5,
+    "preinstruction": "Open WeChat to reply hello to {name}",
+    "inf": "name"
+  },
+  {
+    "id": 12,
+    "difficulty": "easy",
+    "instruction": "Search for fast food restaurants near my home through browser and click on the first one",
+    "pre": "Home",
+    "app": "Browser",
+    "step": 5,
+    "preinstruction": "Search for fast food restaurants near {place name} through browser and click on the first one",
+    "inf": "place name"
+  },
+  {
+    "id": 13,
+    "difficulty": "easy",
+    "instruction": "Navigate to xian with walking",
+    "pre": "",
+    "app": "Baidumap",
+    "step": 6,
+    "preinstruction": "Navigate to {place name} with walking",
+    "inf": "place name"
+  },
+  {
+    "id": 14,
+    "difficulty": "easy",
+    "instruction": "Send a text message to jack that your have worked hard",
+    "pre": "",
+    "app": "Messages",
+    "step": 8,
+    "preinstruction": "Send a text message to {name} that your have worked hard",
+    "inf": "name"
+  },
+  {
+    "id": 15,
+    "difficulty": "easy",
+    "instruction": "Open rednote check a post on the list of the often bought snack and point out one love",
+    "pre": "often bought snack",
+    "app": "rednote",
+    "step": 7,
+    "preinstruction": "Open rednote check a post on the list of {snack name} and point out one love",
+    "inf": "snack name"
+  },
+  {
+    "id": 16,
+    "difficulty": "easy",
+    "instruction": "Open Jingdong to buy own computer again",
+    "pre": "Own computer",
+    "app": "Jingdong",
+    "step": 8,
+    "preinstruction": "Open Jingdong to buy {computer name} again",
+    "inf": "computer name"
+  },
+  {
+    "id": 17,
+    "difficulty": "easy",
+    "instruction": "Open deepseek for 100-word information about my school",
+    "pre": "my School",
+    "app": "DeepSeek",
+    "step": 4,
+    "preinstruction": "Open deepseek for 100-word information about {school name}",
+    "inf": "school name"
+  },
+  {
+    "id": 18,
+    "difficulty": "easy",
+    "instruction": "Open WeChat to scan the QR code sent by friend",
+    "pre": "Friend",
+    "app": "WeChat",
+    "step": 5,
+    "preinstruction": "Open WeChat to scan the QR code sent by {name}",
+    "inf": "name"
+  },
+  {
+    "id": 19,
+    "difficulty": "easy",
+    "instruction": "Transfer 100 yuan to Bob",
+    "pre": "",
+    "app": "WeChat",
+    "step": 8,
+    "preinstruction": "Transfer 100 yuan to {name}",
+    "inf": "name"
+  },
+  {
+    "id": 20,
+    "difficulty": "easy",
+    "instruction": "Open QQ to check the questions sent by friend and copy it",
+    "pre": "friend",
+    "app": "QQ",
+    "step": 4,
+    "preinstruction": "Open QQ to check the questions sent by {name} and copy it",
+    "inf": "name"
+  },
+  {
+    "id": 21,
+    "difficulty": "easy",
+    "instruction": "Open the railway 12306 to check the high-speed train ticket from Chongqing to my city at 6:42 tomorrow",
+    "pre": "my city",
+    "app": "railway 12306",
+    "step": 8,
+    "preinstruction": "Open the railway 12306 to check the high-speed train ticket from Chongqing to {city name} at 6:42 tomorrow",
+    "inf": "city name"
+  },
+  {
+    "id": 22,
+    "difficulty": "normal",
+    "instruction": "Open QQ to reply hello to friend and add a often used expression",
+    "pre": "friend|often used expression",
+    "app": "QQ",
+    "step": 7,
+    "preinstruction": "Open QQ to reply hello to {name} and add a {emoji}",
+    "inf": "name|emoji"
+  },
+  {
+    "id": 23,
+    "difficulty": "normal",
+    "instruction": "Open NetEase Cloud Music to play favorite song and forward it to friend",
+    "pre": "Favorite song|friend",
+    "app": "NetEase Cloud Music",
+    "step": 9,
+    "preinstruction": "Open NetEase Cloud Music to play {song name} and forward it to {name}",
+    "inf": "song name|name"
+  },
+  {
+    "id": 24,
+    "difficulty": "normal",
+    "instruction": "Open the elm.me and order a frequent takeout and the address to fill in my brother's home",
+    "pre": "Frequent takeout|my Brother's home",
+    "app": "elm.me",
+    "step": 11,
+    "preinstruction": "Open the elm.me and order a {food name} and the address to fill in {address}",
+    "inf": "food name|address"
+  },
+  {
+    "id": 25,
+    "difficulty": "normal",
+    "instruction": "Open the railway 12306 and give friend a high-speed train ticket from Chongqing to my city tomorrow",
+    "pre": "my city|School",
+    "app": "railway 12306",
+    "step": 11,
+    "preinstruction": "Open the railway 12306 and give {name} a high-speed train ticket from Chongqing to the {city name} tomorrow",
+    "inf": "name|city name"
+  },
+  {
+    "id": 26,
+    "difficulty": "normal",
+    "instruction": "Open Weibo to check favorite star and forward his latest developments to the friend",
+    "pre": "Favorite star|Friend",
+    "app": "Weibo",
+    "step": 8,
+    "preinstruction": "Open Weibo to check {star name} and forward his latest developments to {name}",
+    "inf": "star name|name"
+  },
+  {
+    "id": 27,
+    "difficulty": "normal",
+    "instruction": "Open the cainiao app and add a new harvest address, fill in the friend, fill in the Friend's phone number, and the address is the first one to locate",
+    "pre": "Friend's phone number|Friend",
+    "app": "Cainiao",
+    "step": 9,
+    "preinstruction": "Open the cainiao app and add a new harvest address, fill in {name}, fill in {phone number}, and the address is the first one to locate",
+    "inf": "name|phone number"
+  },
+  {
+    "id": 28,
+    "difficulty": "normal",
+    "instruction": "Open QQ to forward professional group's latest information to friend",
+    "pre": "Professional group|friend",
+    "app": "QQ",
+    "step": 6,
+    "preinstruction": "Open QQ to forward {group name}'s latest information to {name}",
+    "inf": "group name|name"
+  },
+  {
+    "id": 29,
+    "difficulty": "normal",
+    "instruction": "Open Jingdong to buy the own computer again. The consignee is friend",
+    "pre": "own computer|friend",
+    "app": "Jingdong",
+    "step": 10,
+    "preinstruction": "Open Jingdong to buy {computer name} again. The consignee is {name}",
+    "inf": "computer name|name"
+  },
+  {
+    "id": 30,
+    "difficulty": "normal",
+    "instruction": "open TikTok to search for my school and then forward the first video to TikTok friend with comment good-looking videos",
+    "pre": "my School|TikTok friend",
+    "app": "TikTok",
+    "step": 11,
+    "preinstruction": "open TikTok to search for {school name} and then forward the first video to {name} with comment good-looking videos",
+    "inf": "school name|name"
+  },
+  {
+    "id": 31,
+    "difficulty": "normal",
+    "instruction": "Open Taobao to buy a Collectible doll for girlfriend and then note Happy Valentine's Day",
+    "pre": "girlfriend|Collectible doll",
+    "app": "Taobao",
+    "step": 14,
+    "preinstruction": "Open Taobao to buy a {doll name} for {name} and then note Happy Valentine's Day",
+    "inf": "doll name|name"
+  },
+  {
+    "id": 32,
+    "difficulty": "normal",
+    "instruction": "Set an alarm for The start time of the class and then set an alarm for the end time of the class",
+    "pre": "start time of the class|end time of the class",
+    "app": "Clock",
+    "step": 10,
+    "preinstruction": "Set an alarm for {time} and then set an alarm for {time}",
+    "inf": "time|time"
+  },
+  {
+    "id": 33,
+    "difficulty": "normal",
+    "instruction": "Open the text message and send a message to mother that you have worked hard, then check the text message sent by friend and reply to the receipt",
+    "pre": "Mom|Friend",
+    "app": "Messages",
+    "step": 13,
+    "preinstruction": "Open the text message and send a message to {name} that you have worked hard, then check the text message sent by {name} and reply to the receipt",
+    "inf": "name|name"
+  },
+  {
+    "id": 34,
+    "difficulty": "normal",
+    "instruction": "Open WeChat to scan the QRcode sent by friend and send the information to Own WeChat",
+    "pre": "Friend|own wechat",
+    "app": "WeChat",
+    "step": 12,
+    "preinstruction": "Open WeChat to scan the QRcode sent by {name} and send the information to {wechat name}",
+    "inf": "name|wechat name"
+  },
+  {
+    "id": 35,
+    "difficulty": "difficult",
+    "instruction": "Open Baidu map, navigate to my home and then open QQ to send a message to friend that I am Almost Home",
+    "pre": "Home|Friend",
+    "app": "Baidu Map|QQ",
+    "step": 12,
+    "preinstruction": "Open Baidu map, navigate to {place name} and then open QQ to send a message to {name} that I am Almost Home",
+    "inf": "place name|name"
+  },
+  {
+    "id": 36,
+    "difficulty": "difficult",
+    "instruction": "Turn on Didi Chuxing to take a taxi to my home, and then open QQ to tell friend that I am coming by taxi",
+    "pre": "my home|friend",
+    "app": "Didi Chuxing|QQ",
+    "step": 12,
+    "preinstruction": "Turn on Didi Chuxing to take a taxi to {place name}, and then open QQ to tell {name} that I am coming by taxi",
+    "inf": "place name|name"
+  },
+  {
+    "id": 37,
+    "difficulty": "difficult",
+    "instruction": "open Rednote check one list of often bought snack and collect it and then forward it to friend via WeChat",
+    "pre": "Friend|often bought snack",
+    "app": "rednote|WeChat",
+    "step": 11,
+    "preinstruction": "open Rednote check one list of {snack name} and collect it and then forward it to {name} via WeChat",
+    "inf": "snack name|name"
+  },
+  {
+    "id": 38,
+    "difficulty": "difficult",
+    "instruction": "Open deepseek to ask the my school's 100-word message and send it to friend via QQ",
+    "pre": "my School|friend",
+    "app": "DeepSeek|QQ",
+    "step": 11,
+    "preinstruction": "Open deepseek to ask {school name}'s 100-word message and send it to {name} via QQ",
+    "inf": "school name|name"
+  },
+  {
+    "id": 39,
+    "difficulty": "difficult",
+    "instruction": "open Jingdong to Check the selling price of own computer and send it to friend via QQ",
+    "pre": "own computer|Friend",
+    "app": "Jingdong|QQ",
+    "step": 11,
+    "preinstruction": "open Jingdong to Check the selling price of {computer name} and send it to {name} via QQ",
+    "inf": "computer name|name"
+  },
+  {
+    "id": 40,
+    "difficulty": "difficult",
+    "instruction": "open the settings to connect to the dormitory's WiFi and then turn on the tiktok to search for my school and tap one video",
+    "pre": "Dormitory WiFi|my School",
+    "app": "Settings|TikTok",
+    "step": 9,
+    "preinstruction": "open the settings to connect to {wifi name} and then turn on the tiktok to search for {school name} and tap one video",
+    "inf": "wifi name|school name"
+  },
+  {
+    "id": 41,
+    "difficulty": "difficult",
+    "instruction": "open the clock and set the alarm clock with the start time of the class and the end time of the class, then send the class time to friend via QQ",
+    "pre": "start time of the class|end time of the class|Friend",
+    "app": "Clock|QQ",
+    "step": 10,
+    "preinstruction": "open the clock and set the alarm clock with {time} and {time}, then send the class time to {name} via QQ",
+    "inf": "time|time|name"
+  },
+  {
+    "id": 42,
+    "difficulty": "difficult",
+    "instruction": "open rednote to check a post on the list of the often bought snack and point out one love, then forward it to Friend on WeChat and add it to collection on Pinduoduo",
+    "pre": "often bought snack|Friend",
+    "app": "rednote|WeChat|Pinduoduo",
+    "step": 16,
+    "preinstruction": "open rednote to check a post on the list of {snack name} and point out one love, then forward it to {name} on WeChat and add it to collection on Pinduoduo",
+    "inf": "snack name|name"
+  },
+  {
+    "id": 43,
+    "difficulty": "difficult",
+    "instruction": "open bilibili to Check the video of favorite upmaster and praise it and then forward it to friend via WeChat",
+    "pre": "Favorite upmaster|Friend",
+    "app": "Bilibili|WeChat",
+    "step": 10,
+    "preinstruction": "open bilibili to Check the video of {up name} and praise it and then forward it to {name} via WeChat",
+    "inf": "up name|name"
+  },
+  {
+    "id": 44,
+    "difficulty": "difficult",
+    "instruction": "Set an alarm clock at the end time of the class and use the elm.me to order a Frequent takeout",
+    "pre": "the end of time of the class|Frequent takeout",
+    "app": "Clock|elm.me",
+    "step": 14,
+    "preinstruction": "Set an alarm clock at {time} and use the elm.me to order a {food name}",
+    "inf": "time|food name"
+  },
+  {
+    "id": 45,
+    "difficulty": "difficult",
+    "instruction": "Open the railway 12306 to check the high-speed train ticket from Chongqing to my city at 6:42 tomorrow and then open QQ to send the arrival time to friend",
+    "pre": "my city|Friend",
+    "app": "railway 12306|QQ",
+    "step": 14,
+    "preinstruction": "Open the railway 12306 to check the high-speed train ticket from Chongqing to {city name} at 6:42 tomorrow and then open QQ to send the arrival time to {name}",
+    "inf": "city name|name"
+  },
+  {
+    "id": 46,
+    "difficulty": "difficult",
+    "instruction": "Open the calendar and set a birthday schedule on the day of Dad's birthday, then open the phone to call Mom and then open QQ to send a message to brother that the content is the date of Dad's birthday",
+    "pre": "Dad's birthday|Mother|Brother",
+    "app": "Calendar|Phone|QQ",
+    "step": 17,
+    "preinstruction": "Open the calendar and set a birthday schedule on {date}, then open the phone to call {name} and then open QQ to send a message to {name} that the content is the date of Dad's birthday",
+    "inf": "date|name|name"
+  },
+  {
+    "id": 47,
+    "difficulty": "difficult",
+    "instruction": "Open Jingdong to buy own computer again. The consignee is friend and then Open WeChat and send a message to friend that have bought a computer",
+    "pre": "own computer|friend",
+    "app": "Jingdong|WeChat",
+    "step": 16,
+    "preinstruction": "Open Jingdong to buy {computer name} again. The consignee is {name} and then Open WeChat and send a message to {name} that have bought a computer",
+    "inf": "computer name|name|name"
+  },
+  {
+    "id": 48,
+    "difficulty": "difficult",
+    "instruction": "Open NetEase Cloud Music Search and play the favorite song and then forward it to friend and then open browser to search for the creation background of the song",
+    "pre": "favorite song|Friend",
+    "app": "NetEase Cloud Music|Browser",
+    "step": 15,
+    "preinstruction": "Open NetEase Cloud Music Search and play {song name} and then forward it to {name} and then open browser to search for the creation background of the song",
+    "inf": "song name|name"
+  },
+  {
+    "id": 49,
+    "difficulty": "difficult",
+    "instruction": "Open the text message and send a message to mother that you have worked hard, then check the text message sent by friend and reply to receive it, then open QQ and send the content of friend's text message to brother",
+    "pre": "Mom|Brother|Friend",
+    "app": "Messages|QQ",
+    "step": 19,
+    "preinstruction": "Open the text message and send a message to {name} that you have worked hard, then check the text message sent by {name} and reply to receive it, then open QQ and send the content of friend's text message to {name}",
+    "inf": "name|name|name"
+  },
+  {
+    "id": 50,
+    "difficulty": "difficult",
+    "instruction": "Open QQ to view the latest news of friend, then follow the settings of this message to open the operation, and then send the completed operation in the professional group",
+    "pre": "Friend|Professional Group",
+    "app": "QQ",
+    "step": 21,
+    "preinstruction": "Open QQ to view the latest news of {name}, then follow the settings of this message to open the operation, and then send the completed operation in the {group name}",
+    "inf": "name|group name"
+  },
+  {
+    "id": 51,
+    "difficulty": "difficult",
+    "instruction": "Open QQ to check your friend's taboo, then open elm.me order the Frequent takeout, and then comment on friend's taboo",
+    "pre": "Friend's taboo|Frequent takeout",
+    "app": "QQ|elm.me",
+    "step": 15,
+    "preinstruction": "Open QQ to check {taboo}, then open elm.me order {food name}, and then comment on friend's taboo",
+    "inf": "taboo|food name"
+  },
+  {
+    "id": 52,
+    "difficulty": "difficult",
+    "instruction": "Open WeChat to scan the QRcode sent by friend and then send the information to Own WeChat. Open QQ to send the information to professional group",
+    "pre": "Friend|Own WeChat|Professional group",
+    "app": "WeChat|QQ",
+    "step": 19,
+    "preinstruction": "Open WeChat to scan the QRcode sent by {name} and then send the information to {wechat name}. Open QQ to send the information to {group name}",
+    "inf": "name|wechat name|group name"
+  },
+  {
+    "id": 53,
+    "difficulty": "difficult",
+    "instruction": "Open Baidu map, navigate to my home, then open QQ to send a message to friend that I am almost home, and then send a message in QQ space that I am Home",
+    "pre": "Home|Friend",
+    "app": "Baidu Map|QQ",
+    "step": 19,
+    "preinstruction": "Open Baidu map, navigate to {place name}, then open QQ to send a message to {name} that I am almost home, and then send a message in QQ space that I am Home",
+    "inf": "place name|name"
+  },
+  {
+    "id": 54,
+    "difficulty": "difficult",
+    "instruction": "Open QQ to check the questions sent by friend, then open deepseek to ask this question and then open QQ send the answer to professional group",
+    "pre": "Friend|Professional Groups",
+    "app": "QQ|DeepSeek",
+    "step": 18,
+    "preinstruction": "Open QQ to check the questions sent by {name}, then open deepseek to ask this question and then open QQ send the answer to {group name}",
+    "inf": "name|group name"
+  },
+  {
+    "id": 55,
+    "difficulty": "difficult",
+    "instruction": "Open the railway 12306 to check the high-speed train tickets from Chongqing 6.42 to my city tomorrow, then open QQ to send friend the arrival time of the high-speed train and then open the browser to inquire about the scenic spots near my city",
+    "pre": "my city|Friend",
+    "app": "railway 12306|QQ|Browser",
+    "step": 20,
+    "preinstruction": "Open the railway 12306 to check the high-speed train tickets from Chongqing 6.42 to {city name} tomorrow, then open QQ to send {name} the arrival time of the high-speed train and then open the browser to inquire about the scenic spots near {city name}",
+    "inf": "city name|name|city name"
+  },
+  {
+    "id": 56,
+    "difficulty": "easy",
+    "instruction": "Open the TikTok to publish a text video with the text hello world and then @ TikTok friend",
+    "pre": "TikTok Friend",
+    "app": "TikTok",
+    "step": 8,
+    "preinstruction": "Open the TikTok to publish a text video with the text hello world and then @{name}",
+    "inf": "name"
+  },
+  {
+    "id": 57,
+    "difficulty": "easy",
+    "instruction": "Open the bilibili to play the collected animation video and praise it",
+    "pre": "Collection of anime videos",
+    "app": "Bilibili",
+    "step": 5,
+    "preinstruction": "Open the bilibili to play {video name} and praise it",
+    "inf": "video name"
+  },
+  {
+    "id": 58,
+    "difficulty": "easy",
+    "instruction": "Open the weather to check the weather of my school tomorrow",
+    "pre": "my school",
+    "app": "Weather",
+    "step": 7,
+    "preinstruction": "Open the weather to check the weather of {school name} tomorrow",
+    "inf": "school name"
+  },
+  {
+    "id": 59,
+    "difficulty": "easy",
+    "instruction": "Open rednote, search for articles in the research direction,  click on the first one and click on the heart",
+    "pre": "research direction",
+    "app": "rednote",
+    "step": 7,
+    "preinstruction": "Open rednote, search for articles in {research direction},  click on the first one and click on the heart",
+    "inf": "research direction"
+  },
+  {
+    "id": 60,
+    "difficulty": "easy",
+    "instruction": "Open Taobao search for school's merchandise",
+    "pre": "school",
+    "app": "Taobao",
+    "step": 4,
+    "preinstruction": "Open Taobao search for {school name}'s merchandise",
+    "inf": "school name"
+  },
+  {
+    "id": 61,
+    "difficulty": "easy",
+    "instruction": "Open Browser search for school's pictures and save one",
+    "pre": "school",
+    "app": "Browser",
+    "step": 7,
+    "preinstruction": "Open Browser search for {school name}'s pictures and save one",
+    "inf": "school name"
+  },
+  {
+    "id": 62,
+    "difficulty": "easy",
+    "instruction": "Open Settings to connect Dormitory WiFi",
+    "pre": "Dormitory WiFi",
+    "app": "Settings",
+    "step": 4,
+    "preinstruction": "Open Settings to connect {wifi name}",
+    "inf": "wifi name"
+  },
+  {
+    "id": 63,
+    "difficulty": "easy",
+    "instruction": "Open QQ to download videos from professional group",
+    "pre": "professional group",
+    "app": "QQ",
+    "step": 4,
+    "preinstruction": "Open QQ to download videos from {group name}",
+    "inf": "group name"
+  },
+  {
+    "id": 64,
+    "difficulty": "easy",
+    "instruction": "Open WPS to create a blank document, enter friend's phone number and save it to the cloud disk",
+    "pre": "friend's phone number",
+    "app": "WPS",
+    "step": 8,
+    "preinstruction": "Open WPS to create a blank document, enter {phone number} and save it to the cloud disk",
+    "inf": "phone number"
+  },
+  {
+    "id": 65,
+    "difficulty": "easy",
+    "instruction": "Open App Market to download less commonly used network disks app",
+    "pre": "less commonly used network disks app",
+    "app": "App Market",
+    "step": 5,
+    "preinstruction": "Open App Market to download {app name}",
+    "inf": "app name"
+  },
+  {
+    "id": 66,
+    "difficulty": "easy",
+    "instruction": "Open the Dianping Search for tourist routes near the school and click on the first",
+    "pre": "school",
+    "app": "Dianping",
+    "step": 6,
+    "preinstruction": "Open the Dianping Search for tourist routes near {school name} and click on the first",
+    "inf": "school name"
+  },
+  {
+    "id": 67,
+    "difficulty": "normal",
+    "instruction": "Open the TikTok to publish a text video with hello world, then select the background music as favorite song, comments it and @TikTok friend",
+    "pre": "favorite song|TikTok friend",
+    "app": "TikTok",
+    "step": 14,
+    "preinstruction": "Open the TikTok to publish a text video with hello world, then select the background music as {song name}, comments it and @{name}",
+    "inf": "song name|name"
+  },
+  {
+    "id": 68,
+    "difficulty": "normal",
+    "instruction": "Open the bilibili to play the collected animation video and forward it to the dynamic and then @ sister",
+    "pre": "collected animation video|sister",
+    "app": "Bilibili",
+    "step": 10,
+    "preinstruction": "Open the bilibili to play {video name} and forward it to the dynamic and then @{name}",
+    "inf": "video name|name"
+  },
+  {
+    "id": 69,
+    "difficulty": "normal",
+    "instruction": "Open QQ and publish a text saying that the content is hello world plus a often used expression and then @ friend",
+    "pre": "often used expression|friend",
+    "app": "QQ",
+    "step": 12,
+    "preinstruction": "Open QQ and publish a text saying that the content is hello world plus a often {emoji} and then @{name}",
+    "inf": "emoji|name"
+  },
+  {
+    "id": 70,
+    "difficulty": "normal",
+    "instruction": "Open QQ to check the friend's QQ space, then praise the first content and comment on a often used expression",
+    "pre": "friend|often used expression",
+    "app": "QQ",
+    "step": 11,
+    "preinstruction": "Open QQ to check {name}'s QQ space, then praise the first content and comment on a {emoji}",
+    "inf": "name|emoji"
+  },
+  {
+    "id": 71,
+    "difficulty": "normal",
+    "instruction": "Open rednote, search for articles in the research direction, and click on the first one and click on the heart And comments are useful, plus a often used expression",
+    "pre": "research direction|often used expression",
+    "app": "rednote",
+    "step": 11,
+    "preinstruction": "Open rednote, search for articles in the {research direction}, and click on the first one and click on the heart And comments are useful, plus a {emoji}",
+    "inf": "research direction|emoji"
+  },
+  {
+    "id": 72,
+    "difficulty": "normal",
+    "instruction": "Open WPS Create a blank document, enter a friend's phone number, save it to the cloud disk, file name as friend, and convert to pdf format",
+    "pre": "friend's phone number|friend",
+    "app": "WPS",
+    "step": 10,
+    "preinstruction": "Open WPS Create a blank document, enter a {phone number}, save it to the cloud disk, file name as {name}, and convert to pdf format",
+    "inf": "phone number|name"
+  },
+  {
+    "id": 73,
+    "difficulty": "normal",
+    "instruction": "Open DianPing to search for notes on travel routes near the school and click on the first comment to publish a good comment and @ friend",
+    "pre": "school|friend",
+    "app": "Dianping",
+    "step": 11,
+    "preinstruction": "Open DianPing to search for notes on travel routes near {school name} and click on the first comment to publish a good comment and @ {name}",
+    "inf": "school name|name"
+  },
+  {
+    "id": 74,
+    "difficulty": "normal",
+    "instruction": "Open QQ to download files sent by friend and open and share the documents to the professional group Leave a message with a document that needs to be filled in",
+    "pre": "friend|professional group",
+    "app": "QQ",
+    "step": 11,
+    "preinstruction": "Open QQ to download files sent by {name} and open and share the documents to {group name} Leave a message with a document that needs to be filled in",
+    "inf": "name|group name"
+  },
+  {
+    "id": 75,
+    "difficulty": "difficult",
+    "instruction": "Open DianPing to search for notes on travel routes near the school and click on the first comment to publish a good comment and @ friend and then share it with mom via text message",
+    "pre": "school|friend|mom",
+    "app": "Dianping|Messages",
+    "step": 18,
+    "preinstruction": "Open DianPing to search for notes on travel routes near {school name} and click on the first comment to publish a good comment and @ {name} and then share it with {name} via text message",
+    "inf": "school name|name|name"
+  }
+]
