@@ -5,7 +5,7 @@ instruction = ""
 
 if explore_switch:
     prompt += ("Stop: If you believe all the requirements of the user's instruction have been completed and no further action is needed, you can choose this operation to terminate the process. Then your output format is Stop|Information (this information is the core part of what the user needs,"
-               "please keep only the essential part and remove any extra descriptive words) for example, Stop|西北工业大学, and do not output anything else.")
+               "please keep only the essential part and remove any extra descriptive words) for example, Stop|something, and do not output anything else.")
 else:
     prompt += "Stop: If you believe all the requirements of the user's instruction have been completed and no further action is needed, you can choose this operation to terminate the process."
 
