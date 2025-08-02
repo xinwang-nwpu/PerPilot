@@ -20,7 +20,7 @@ def inference_chat(chat, model, api_url, token):
                 model=model,
                 messages=messages,
                 max_tokens=4096,
-                temperature=0.7,
+                temperature=0.0,
                 seed=1234
 
             )
