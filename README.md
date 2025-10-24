@@ -84,13 +84,12 @@ This project is implemented based on the MUMU emulator, which is an emulator com
 To reproduce it, you need to download this emulator from the link now.
 link is https://mumu.163.com/
 
+You can create a mobile environment in this emulator and install the required software or download the image used in our lab to quickly and accurately reproduce it.
+our image link is 
 
+Then you need to set the command-line tool of the MuMu emulator in the environment variables or system path.The tool position and related function codes can be referenced at the website https://mumu.163.com/help/20240807/40912_1170006.html.
 
-
-
-
-
-
+Finally, download the files required by the module and agent to start using it.
 
 
 
