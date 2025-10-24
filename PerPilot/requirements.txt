@@ -1,5 +1,0 @@
-openai
-chromadb
-PIL
-easyocr
-json
