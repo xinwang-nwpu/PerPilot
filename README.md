@@ -74,14 +74,16 @@ https://github.com/senzhk/ADBKeyBoard
 
 After the setup is complete, you need an adb software on your computer, either set it to the system path or specify the adb path in your project.
 
+Then you need to connect your phone to the computer via USB debugging or a wireless connection.
 
-
+Finally, download the files required by the module and agent to start using it.
 
 
 2.mobile simulator
 This project is implemented based on the MUMU emulator, which is an emulator compatible with Chinese apps.
 To reproduce it, you need to download this emulator from the link now.
 link is https://mumu.163.com/
+
 
 
 
