@@ -1,7 +1,0 @@
-argparse
-colorama
-dashscope
-opencv-python
-pyshine
-pyyaml
-requests
