@@ -72,6 +72,9 @@ The project provides two operating environments: real mobile phones and mobile s
 To run on a real phone, you first need to download the ADB Keyboard and then set the default input method to ADB Keyboard.
 https://github.com/senzhk/ADBKeyBoard
 
+After the setup is complete, you need an adb software on your computer, either set it to the system path or specify the adb path in your project.
+
+
 
 
 
@@ -79,6 +82,8 @@ https://github.com/senzhk/ADBKeyBoard
 This project is implemented based on the MUMU emulator, which is an emulator compatible with Chinese apps.
 To reproduce it, you need to download this emulator from the link now.
 link is https://mumu.163.com/
+
+
 
 
 
