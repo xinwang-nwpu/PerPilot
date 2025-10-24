@@ -68,6 +68,10 @@ Our evaluations demonstrate that PerPilot:
 ## 📱 Get Start
 The project provides two operating environments: real mobile phones and mobile simulators.
 1.real mobile phones
+To run on a real phone, you first need to download the ADB Keyboard and then set the default input method to ADB Keyboard.
+https://github.com/senzhk/ADBKeyBoard
+
+
 
 2.mobile simulator
 This project is implemented based on the MUMU emulator, which is an emulator compatible with Chinese apps.
