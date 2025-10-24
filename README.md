@@ -65,6 +65,22 @@ Our evaluations demonstrate that PerPilot:
 
 * Establishes the importance of personalization-aware reasoning for next-generation agents
 
+## 📱 Get Start
+The project provides two operating environments: real mobile phones and mobile simulators.
+1.real mobile phones
+
+2.mobile simulator
+This project is implemented based on the MUMU emulator, which is an emulator compatible with Chinese apps.
+To reproduce it, you need to download this emulator from the link now.
+link is https://mumu.163.com/
+
+
+
+
+
+
+
+
 ## 📝 Conclusion
 
 PerPilot represents a significant step forward in creating more intuitive and user-centric mobile agents. By combining memory-based retrieval with advanced reasoning capabilities, our framework paves the way for more natural human-machine interaction in mobile environments.
