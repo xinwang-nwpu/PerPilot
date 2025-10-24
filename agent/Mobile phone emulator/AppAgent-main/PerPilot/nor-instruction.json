@@ -1,0 +1,177 @@
+[
+   {
+    "id": 1,
+    "difficulty": "easy",
+    "instruction": "Open Alipay and search for exchange rate conversion",
+    "app": "Alipay",
+    "step": 3
+  },
+   {
+    "id": 2,
+    "difficulty": "normal",
+    "instruction": "Open Alipay and search for exchange rate conversion, and check the exchange rate of Hong Kong dollars to euros.",
+    "app": "Alipay",
+    "step": 9
+  },
+  {
+    "id": 3,
+    "difficulty": "difficult",
+    "instruction": "Open Alipay and search for exchange rate conversion to check the exchange rate of Hong Kong Dollar to Euro. Calculate how many Euros can be exchanged for 100 Hong Kong Dollars.",
+    "app": "Alipay",
+    "step": 13
+  },
+  {
+    "id": 4,
+    "difficulty": "easy",
+    "instruction": "Open Bilibili to view all sections and display the content of the documentary column.",
+    "app": "Bilibili",
+    "step": 3
+  },
+  {
+    "id": 5,
+    "difficulty": "normal",
+    "instruction": "Open Bilibili to view all sections and display the content of the documentary column,and watch the number one video on the trending list.",
+    "app": "Bilibili",
+    "step": 5
+  },
+  {
+    "id": 6,
+    "difficulty": "difficult",
+    "instruction": "Open Bilibili to view all sections and display the content of the documentary column, watch the number one video on the trending list, and post the comment 'Good, good, good' under the video",
+    "app": "Bilibili",
+    "step": 9
+  },
+  {
+    "id": 7,
+    "difficulty": "easy",
+    "instruction": "Open Douyin to search for the creator MrBeast",
+    "app": "TikTok",
+    "step": 3
+  },
+  {
+    "id": 8,
+    "difficulty": "normal",
+    "instruction": "Open Douyin, search for the creator MrBeast, view the creator's homepage and one of their videos, then like the video",
+    "app": "TikTok",
+    "step": 6
+  },
+  {
+    "id": 9,
+    "difficulty": "difficult",
+    "instruction": "Open Douyin, search for the creator MrBeast, view the creator's homepage and one of their videos, like any comment on the video, and follow the creator",
+    "app": "TikTok",
+    "step": 13
+  },
+  {
+    "id": 10,
+    "difficulty": "easy",
+    "instruction": "Open Baidu Maps to find nearby supermarkets.",
+    "app": "Baidu Maps",
+    "step": 3
+  },
+  {
+    "id": 11,
+    "difficulty": "normal",
+    "instruction": "Open Baidu Maps to find nearby supermarkets, click on one of the supermarkets, and click 'Route' to plan the route.",
+    "app": "Baidu Maps",
+    "step": 6
+  },
+  {
+    "id": 12,
+    "difficulty": "difficult",
+    "instruction": "Open Baidu Maps to find nearby supermarkets, click on one of the supermarkets, click 'Route' to plan the route, then check if there are gas stations nearby, select a suitable gas station as a stopover and confirm the best driving route.",
+    "app": "Baidu Maps",
+    "step": 10
+  },
+  {
+    "id": 13,
+    "difficulty": "easy",
+    "instruction": "Open Zhihu to search for AI",
+    "app": "Browser",
+    "step": 3
+  },
+  {
+    "id": 14,
+    "difficulty": "normal",
+    "instruction": "Open Zhihu to search for AI, search for users, enter the homepage of one user from the results, and view their latest published article",
+    "app": "Browser",
+    "step": 7
+  },
+  {
+    "id": 15,
+    "difficulty": "difficult",
+    "instruction": "Open Zhihu to search for AI, search for users, enter the homepage of one user from the results, view their latest published article, like the article, click collect, and post the comment 'hello world' in the comment section",
+    "app": "Browser",
+    "step":13
+  },
+  {
+    "id": 16,
+    "difficulty": "easy",
+    "instruction": "Open NetEase Cloud Music to search for the singer Jay Chou",
+    "app": "NetEase Cloud Music",
+    "step": 3
+  },
+  {
+    "id": 17,
+    "difficulty": "normal",
+    "instruction": "Open NetEase Cloud Music to search for the singer Jay Chou, open one of his albums, and view the comments",
+    "app": "NetEase Cloud Music",
+    "step": 6
+  },
+  {
+    "id": 18,
+    "difficulty": "difficult",
+    "instruction": "Open NetEase Cloud Music to search for the singer Jay Chou, view his albums, and post the comment 'hello world' in the comment section",
+    "app": "NetEase Cloud Music",
+    "step": 9
+  },
+  {
+    "id": 19,
+    "difficulty": "easy",
+    "instruction": "Open NetEase Cloud Music to browse music charts",
+    "app": "NetEase Cloud Music",
+    "step": 2
+  },
+  {
+    "id": 20,
+    "difficulty": "normal",
+    "instruction": "Open NetEase Cloud Music to browse music charts, find the top 5 songs, and add the top 3 to favorite",
+    "app": "NetEase Cloud Music",
+    "step": 5
+  },
+  {
+    "id": 21,
+    "difficulty": "difficult",
+    "instruction": "Open NetEase Cloud Music to browse music charts, find the top 5 songs, add them to favorite, and share the 5th song to QQ (stay on the sharing interface)",
+    "app": "NetEase Cloud Music",
+    "step": 9
+  },
+  {
+    "id": 22,
+    "difficulty": "normal",
+    "instruction": "Open NetEase Cloud Music, search for Jay Chou, view his homepage, note down a song, then open Bilibili app to search for videos related to that song.",
+    "app": "NetEase Cloud Music|Bilibili",
+    "step": 10
+  },
+  {
+    "id": 23,
+    "difficulty": "normal",
+    "instruction": "Search for popular songs of 2024 in the browser, choose a song, then open NetEase Cloud Music and add that song to favorite.",
+    "app": "browser|NetEase Cloud Music",
+    "step": 11
+  },
+  {
+    "id": 24,
+    "difficulty": "normal",
+    "instruction": "Search for 'What is Tencent's most successful game' in the browser, then open Bilibili app to search for any video related to that game , watch the video, and share it to QQ Space.",
+    "app": "Browser|QQ|Bilibili",
+    "step": 14
+  },
+  {
+    "id": 25,
+    "difficulty": "normal",
+    "instruction": "Search for 'who is the largest animal on Earth' in the browser, then open Bilibili app to search for videos of this animal and stay on the search results page.",
+    "app": "Browser|Bilibili",
+    "step": 9
+  }
+]
