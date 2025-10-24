@@ -1,4 +1,0 @@
-openai
-Pillow
-easyocr
-chromadb
