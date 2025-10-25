@@ -80,7 +80,7 @@ def shot(adb_path, id, step):
     try:
 
         adb_commands = (
-            f'"{adb_path}" -s 127.0.0.1:5557 shell '
+            f'"{adb_path}" shell '
             f'rm /sdcard/screenshot.png; '  
             f'screencap -p /sdcard/screenshot.png'
         )
@@ -89,7 +89,7 @@ def shot(adb_path, id, step):
         subprocess.run(adb_commands, capture_output=True, text=True, shell=True, check=True)
 
 
-        pull_command = f'"{adb_path}" -s 127.0.0.1:5557 pull /sdcard/screenshot.png "{final_image_path}"'
+        pull_command = f'"{adb_path}" pull /sdcard/screenshot.png "{final_image_path}"'
         subprocess.run(pull_command, capture_output=True, text=True, shell=True, check=True)
 
 
@@ -145,11 +145,11 @@ def pull_screenshot_and_ocr(adb_path, local_save_path=None):
 
 
         device_screenshot_path = "/sdcard/screenshot_temp.png"
-        screencap_command = f'"{adb_path}" -s 127.0.0.1:5557 shell screencap -p {device_screenshot_path}'
+        screencap_command = f'"{adb_path}" shell screencap -p {device_screenshot_path}'
         result = subprocess.run(screencap_command, capture_output=True, text=True, shell=True, check=True)
 
 
-        pull_command = f'"{adb_path}" -s 127.0.0.1:5557 pull {device_screenshot_path} "{local_save_path}"'
+        pull_command = f'"{adb_path}" pull {device_screenshot_path} "{local_save_path}"'
         subprocess.run(pull_command, capture_output=True, text=True, shell=True, check=True)
 
 
@@ -161,7 +161,7 @@ def pull_screenshot_and_ocr(adb_path, local_save_path=None):
         result = reader.readtext(local_save_path, detail=0)
 
 
-        rm_device_command = f'"{adb_path}" -s 127.0.0.1:5557 shell rm {device_screenshot_path}'
+        rm_device_command = f'"{adb_path}" shell rm {device_screenshot_path}'
         subprocess.run(rm_device_command, capture_output=True, text=True, shell=True, check=True)
 
 
