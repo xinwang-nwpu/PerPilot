@@ -10,7 +10,7 @@ from chat import personalization_chat, verify_all_chat, verify_per_chat
 from emulator import start_emulator, restart_emulator, adb_connect, adb_keyboard, stop_emulator
 from personalization import personalization_solve
 from prompt import get_explore_prompt
-from run import XAgent
+from run import UITARS
 
 
 def update_config_instruction(config, json_file_path, target_id):
@@ -92,7 +92,7 @@ def explore_solve(instruction, api_url, Token, model, ID):
                     print(f"Try {temp_response[i]}\n")
                     append_to_file(ID, f"Exploration personalized information:{b[i]} Command:{temp_response[i]}")
                     config["instruction"] = f"{temp_response[i]}"
-                    agent = XAgent(config)
+                    agent = UITARS(config)
                     message = agent.run(instruction_id)
                     if message != 0:
                         txt = b[i] + "|" + message
@@ -136,7 +136,7 @@ def explore_solve(instruction, api_url, Token, model, ID):
                 config["instruction"] = instruction
                 config["explore_switch"] = False
                 append_to_file(ID, f"Accurate instruction execution stage")
-                agent = XAgent(config)
+                agent = UITARS(config)
                 result = agent.run(instruction_id)
                 if result:
                     chat_history = verify_all_chat(ID, instruction)
@@ -166,7 +166,7 @@ def explore_solve(instruction, api_url, Token, model, ID):
                 config["instruction"] = instruction
                 config["explore_switch"] = False
                 append_to_file(ID, f"Accurate instruction execution stage")
-                agent = XAgent(config)
+                agent = UITARS(config)
                 result = agent.run(instruction_id)
                 if result:
                     chat_history = verify_all_chat(ID, instruction)
@@ -197,7 +197,7 @@ def explore_solve(instruction, api_url, Token, model, ID):
                 config["instruction"] = instruction
             config["explore_switch"] = False
             append_to_file(ID, f"Accurate instruction execution stage")
-            agent = XAgent(config)
+            agent = UITARS(config)
             result = agent.run(instruction_id)
             if result:
                 chat_history = verify_all_chat(ID, instruction)
@@ -244,7 +244,7 @@ while int(instruction_id) <= 75:
             config["instruction"] = personalization_solve(config["instruction"], history, config["deep_api_url"],
                                                           config["token"])
             config["explore_switch"] = False
-            agent = XAgent(config)
+            agent = UITARS(config)
             agent.run(instruction_id)
         else:
             config["explore_switch"] = False
@@ -254,7 +254,7 @@ while int(instruction_id) <= 75:
             adb_connect()
             time.sleep(5)
             adb_keyboard(config["adb_path"])
-            agent = XAgent(config)
+            agent = UITARS(config)
             agent.run(instruction_id)
             stop_emulator()
             time.sleep(5)
