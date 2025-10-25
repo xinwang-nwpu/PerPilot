@@ -6,7 +6,7 @@ def append_to_file(id, content):
     if not os.path.exists("log"):
         os.makedirs("log")
     with open(f"log/log{id}.txt", 'a', encoding='utf-8') as file:
-        file.write(content + '\n')  # 添加换行符
+        file.write(content + '\n')  
 
 
 def encode_image(image_path):
