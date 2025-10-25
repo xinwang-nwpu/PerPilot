@@ -231,7 +231,7 @@ config = {
     "instruction": "",
     "difficulty": 0,
     "API_url": "",  # gpt baseurl
-    "token": "sk-wtQwjJwJFHsHFL1iH2P0Y6eqKXNvkab1w4ucpFwYWkIKJ5Tq",  # gpt token
+    "token": "",  # gpt token
     "add_info": "When you cannot open the app using open app, please try clicking the app's icon to open it.",
     #Add some extra information you want to provide to the large model
     "personalization_switch": True,
