@@ -228,8 +228,8 @@ while int(instruction_id) <= 75:
             explore_solve(config["instruction"], config["API_url"], config["token"], "qwen-max", instruction_id)
         elif config["personalization_switch"]:
             history = personalization_chat(config["instruction"], [])
-            config["instruction"] = personalization_solve(config["instruction"], history, config["deep_api_url"],
-                                                          config["deep_token"])
+            config["instruction"] = personalization_solve(config["instruction"], history, config["API_url"],
+                                                          config["token"])
             explore_switch = False
             run(explore_switch, config["instruction"], instruction_id, config["difficulty"])
         else:
