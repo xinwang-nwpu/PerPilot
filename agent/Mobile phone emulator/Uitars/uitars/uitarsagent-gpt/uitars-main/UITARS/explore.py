@@ -241,7 +241,7 @@ while int(instruction_id) <= 75:
             explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
         elif config["personalization_switch"]:
             history = personalization_chat(config["instruction"], [])
-            config["instruction"] = personalization_solve(config["instruction"], history, config["deep_api_url"],
+            config["instruction"] = personalization_solve(config["instruction"], history, config["API_url"],
                                                           config["token"])
             config["explore_switch"] = False
             agent = UITARS(config)
