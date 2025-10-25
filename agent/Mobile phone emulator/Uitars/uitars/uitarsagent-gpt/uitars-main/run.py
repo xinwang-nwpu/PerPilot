@@ -3,12 +3,12 @@ import time
 import shutil
 import easyocr
 from PIL import Image
-from XAGENT.api import inference_chat2, append_to_file
-from XAGENT.controller import get_screenshot
-from XAGENT.prompt import get_action_prompt, get_process_prompt
-from XAGENT.chat import init_action_chat, add_response, init_memory_chat
-from XAGENT.get_action import get_action
-from XAGENT.emulator import shot
+from UITARS.api import inference_chat2, append_to_file
+from UITARS.controller import get_screenshot
+from UITARS.prompt import get_action_prompt, get_process_prompt
+from UITARS.chat import init_action_chat, add_response, init_memory_chat
+from UITARS.get_action import get_action
+from UITARS.emulator import shot
 
 
 class XAgent:
