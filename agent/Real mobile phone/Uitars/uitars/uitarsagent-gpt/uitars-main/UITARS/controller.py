@@ -35,7 +35,7 @@ def type(adb_path, text):
     buffer = []
 
     def send(cmd, args=None):
-        subprocess.run([adb_path, 'shell'] + cmd + [args] if args else [adb_path, '-s', '127.0.0.1:5557', 'shell'] + cmd,
+        subprocess.run([adb_path, 'shell'] + cmd + [args] if args else [adb_path,'shell'] + cmd,
                        check=True, capture_output=True)
 
     for char in text:
