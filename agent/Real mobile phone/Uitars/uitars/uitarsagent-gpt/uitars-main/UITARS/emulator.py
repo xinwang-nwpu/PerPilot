@@ -73,7 +73,7 @@ def adb_start():
 
 def shot(adb_path, id, step):
 
-    folder_path = f"./newshot/{id}"
+    folder_path = f"./shot/{id}"
     os.makedirs(folder_path, exist_ok=True)
 
     final_image_path = f"{folder_path}/{step}.png"
