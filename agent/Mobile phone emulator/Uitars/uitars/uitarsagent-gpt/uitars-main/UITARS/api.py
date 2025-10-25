@@ -1,4 +1,6 @@
 import base64
+import os
+
 from openai import OpenAI, APIConnectionError, APIError
 
 

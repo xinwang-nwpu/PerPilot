@@ -16,7 +16,7 @@ from model import parse_explore_rsp, parse_grid_rsp, OpenAIModel, QwenModel
 from utils import print_with_color, draw_bbox_multi, draw_grid
 from api import append_to_file
 
-adb_path = "C:\platform-tools\\adb.exe"
+adb_path = "" #input("Please input the path of adb.exe: ")
 
 
 def home(adb_path):
@@ -52,7 +52,7 @@ y1 = 0
 def run(explore_switch, task, id, difficulty):
     global elem_list
     app = "qq"
-    root_dir = "D:\\appagent\\appagent\AppAgent-main"
+    root_dir = "" #input("Please input the root directory of the AppAgent: ")
     alltokens = 0
 
     if not app:

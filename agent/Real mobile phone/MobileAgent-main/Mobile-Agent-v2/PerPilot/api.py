@@ -1,8 +1,12 @@
 import base64
+import os
+
 from openai import OpenAI, APIConnectionError, APIError
 
 
 def append_to_file(id, content):
+    if not os.path.exists("log"):
+        os.makedirs("log")
     with open(f"log/log{id}.txt", 'a', encoding='utf-8') as file:
         file.write(content + '\n')
 

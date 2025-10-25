@@ -1,0 +1,42 @@
+instruction:Open baidumap and navigate to my home
+Personalization phase
+Extracting personalized elements:['my home']
+Replace personalized elements:my home with 
+Precise Command Execution Phase
+instruction:Open baidumap and navigate to my home
+Personalization phase
+Extracting personalized elements:['my home']
+Replace personalized elements:my home with 
+Precise Command Execution Phase
+failed,stop,textERRORorERROR
+instruction:Open baidumap and navigate to my home
+Personalization phase
+Extracting personalized elements:['my home']
+Replace personalized elements:my home with 
+Precise Command Execution Phase
+failed,stop,textERRORorERROR
+instruction:Open baidumap and navigate to my home
+Personalization phase
+Extracting personalized elements:['my home']
+Replace personalized elements:my home with 
+Precise Command Execution Phase
+1steps,act['tap', 30],cost time32秒,token3821
+2steps,act['tap', 9],cost time69秒,token7997
+3steps,act['tap', 15],cost time95秒,token12089
+4steps,act['tap', 5],cost time120秒,token15776
+instruction:Open baidumap and navigate to my home
+Personalization phase
+Extracting personalized elements:['my home']
+Replace personalized elements:my home with 
+Precise Command Execution Phase
+instruction:Open baidumap and navigate to my home
+Personalization phase
+Extracting personalized elements:['my home']
+Replace personalized elements:my home with 
+Precise Command Execution Phase
+Verify personalized elements execution success
+Reason:Success  
+From the initial state image (showing the home screen or launcher without Baidu Map active) and the post-command state image (showing Baidu Map V21 in active turn-by-turn navigation mode with a plotted route, upcoming turn instruction, remaining distance, and estimated arrival time), it is clear that the “open baidumap and navigate to…” command has been fulfilled: Baidu Map is open and navigation toward the specified destination is in progress.,Verification token consumption:3704,Personalized elements:['my home']
+
+Personalized information extraction and instruction generation token consumption:599
+

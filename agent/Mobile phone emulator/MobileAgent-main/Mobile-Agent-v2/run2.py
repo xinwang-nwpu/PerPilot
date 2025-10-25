@@ -34,6 +34,7 @@ API_url = ""
 # openai token
 token = ""
 
+
 # qwen  qwen-vl-plus" or "qwen-vl-max"
 caption_model = "qwen-vl-plus"
 

@@ -1,0 +1,51 @@
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\PerPilot\explore.py", line 223, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\PerPilot\explore.py", line 157, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\run2.py", line 246, in run
+    perception_infos, width, height = get_perception_infos(adb_path, screenshot_file)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\run2.py", line 179, in get_perception_infos
+    get_screenshot(adb_path)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\MobileAgent\controller.py", line 18, in get_screenshot
+    image = Image.open(image_path)
+  File "D:\appagent\agent\.venv\lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\git\\PerPilot\\agent\\Real mobile phone\\MobileAgent-main\\Mobile-Agent-v2\\PerPilot\\screenshot\\screenshot.png'
+
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\PerPilot\explore.py", line 223, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\PerPilot\explore.py", line 157, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\run2.py", line 246, in run
+    perception_infos, width, height = get_perception_infos(adb_path, screenshot_file)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\run2.py", line 179, in get_perception_infos
+    get_screenshot(adb_path)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\MobileAgent\controller.py", line 18, in get_screenshot
+    image = Image.open(image_path)
+  File "D:\appagent\agent\.venv\lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\git\\PerPilot\\agent\\Real mobile phone\\MobileAgent-main\\Mobile-Agent-v2\\PerPilot\\screenshot\\screenshot.png'
+
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\PerPilot\explore.py", line 223, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\PerPilot\explore.py", line 157, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\run2.py", line 246, in run
+    perception_infos, width, height = get_perception_infos(adb_path, screenshot_file)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\run2.py", line 179, in get_perception_infos
+    get_screenshot(adb_path)
+  File "E:\git\PerPilot\agent\Real mobile phone\MobileAgent-main\Mobile-Agent-v2\MobileAgent\controller.py", line 18, in get_screenshot
+    image = Image.open(image_path)
+  File "D:\appagent\agent\.venv\lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\git\\PerPilot\\agent\\Real mobile phone\\MobileAgent-main\\Mobile-Agent-v2\\PerPilot\\screenshot\\screenshot.png'
+

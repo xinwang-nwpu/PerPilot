@@ -26,13 +26,13 @@ from PerPilot.emulator import shot
 
 ####################################### Edit your Setting #########################################
 # adb
-adb_path = ""
+adb_path = "C:\\platform-tools\\adb.exe"
 
 # openai url
-API_url = ""
+API_url = "http://35.220.164.252:3888/v1/"
 
 # openai token
-token = ""
+token = "sk-wtQwjJwJFHsHFL1iH2P0Y6eqKXNvkab1w4ucpFwYWkIKJ5Tq"
 
 # qwen  qwen-vl-plus" or "qwen-vl-max"
 caption_model = "qwen-vl-plus"

@@ -204,11 +204,11 @@ def explore_solve(instruction, api_url, TOKEN, model, ID):
 
 
 config = {
-    "adb_path": "",
+    "adb_path": "C:\\platform-tools\\adb.exe",
     "instruction": "",
     "difficulty": 0,
-    "API_url": "",  # gpt baseurl
-    "token": "",  # gpt token
+    "API_url": "http://35.220.164.252:3888/v1/",  # gpt baseurl
+    "token": "sk-wtQwjJwJFHsHFL1iH2P0Y6eqKXNvkab1w4ucpFwYWkIKJ5Tq",  # gpt token
     "add_info": "When you cannot open the app using open app, please try clicking the app's icon to open it.",#Add some extra information you want to provide to the large model
     "personalization_switch": True,  # Enable personalized features if tasks require personalized instructions, opening will slow down the speed
     "explore_switch": True  # Enable active exploration information feature, which is the active acquisition of personalized information

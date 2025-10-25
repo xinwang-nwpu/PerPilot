@@ -1,0 +1,73 @@
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 238, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 162, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\scripts\task_executor.py", line 66, in run
+    os.mkdir(work_dir)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:..\\..\\AppAgent-main\\tasks'
+
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 238, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 162, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\scripts\task_executor.py", line 66, in run
+    os.mkdir(work_dir)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:../AppAgent-main\\tasks'
+
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 238, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 162, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\scripts\task_executor.py", line 66, in run
+    os.mkdir(work_dir)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:../AppAgent-main\\tasks'
+
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 238, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 162, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\scripts\task_executor.py", line 66, in run
+    os.mkdir(work_dir)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:../../AppAgent-main\\tasks'
+
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 238, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 162, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\scripts\task_executor.py", line 66, in run
+    os.mkdir(work_dir)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:../../AppAgent-main\\tasks'
+
+instruction_id:1
+error occurred during execution:
+Traceback (most recent call last):
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 238, in <module>
+    explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\PerPilot\explore.py", line 162, in explore_solve
+    result = run(config["explore_switch"], config["instruction"], ID, config["difficulty"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\PerPilot\agent\Real mobile phone\AppAgent-main\scripts\task_executor.py", line 204, in run
+    if screenshot_path == "ERROR" or xml_path == "ERROR":
+       ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'screenshot_path' where it is not associated with a value
+

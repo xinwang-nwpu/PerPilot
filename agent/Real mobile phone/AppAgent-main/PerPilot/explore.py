@@ -10,12 +10,12 @@ from api import inference_chat2, append_to_file
 from chat import personalization_chat, verify_all_chat, verify_per_chat
 from personalization import personalization_solve
 from prompt import get_explore_prompt
-from task_executor import run #Encapsulate the agent's execution code as run
+from task_executor import run  #Encapsulate the agent's execution code as run
+
 
 def home(adb_path):
     command = adb_path + f"shell am start -a android.intent.action.MAIN -c android.intent.category.HOME"
     subprocess.run(command, capture_output=True, text=True, shell=True)
-
 
 
 def update_config_instruction(config, json_file_path, target_id):
@@ -29,7 +29,6 @@ def update_config_instruction(config, json_file_path, target_id):
         print(f"Error: Failed to parse JSON file {json_file_path}")
         return config
 
-
     instruction = None
     difficult = None
     for item in json_data:
@@ -42,7 +41,6 @@ def update_config_instruction(config, json_file_path, target_id):
                 difficult = 2
             elif difficult == "difficult":
                 difficult = 3
-
 
     if instruction:
         config['instruction'] = instruction
@@ -96,7 +94,8 @@ def explore_solve(instruction, api_url, TOKEN, model, ID):
                         txt = b[i] + "|" + message
                         chat = verify_per_chat(txt)
                         response, token3 = inference_chat2(chat, model, api_url, TOKEN)
-                        print(f"Verify whether the search information is successful, the verification result is{response}")
+                        print(
+                            f"Verify whether the search information is successful, the verification result is{response}")
                         all_token += token3[2]
                         if response.startswith("yes"):
                             f = open("personalization.txt", "a", encoding="utf-8")
@@ -108,7 +107,6 @@ def explore_solve(instruction, api_url, TOKEN, model, ID):
                             errorflag = True
                         home(config["adb_path"])
                         if i == min(len(b), len(response)) - 1:
-
                             break
                     else:
 
@@ -118,7 +116,6 @@ def explore_solve(instruction, api_url, TOKEN, model, ID):
                         errorflag = True
                         break
                 if errorflag:
-
                     break
 
                 f = open("personalization.txt", "r+", encoding="utf-8")
@@ -139,11 +136,14 @@ def explore_solve(instruction, api_url, TOKEN, model, ID):
                     if "Success" in response:
                         append_to_file(ID,
                                        f"Verify personalized elements execution success\nReason:{response},Verification token consumption:{token3[2]},Personalized elements:{tmp}\n")
-                        append_to_file(ID, f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
+                        append_to_file(ID,
+                                       f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
                         print("Verify personalized elements execution success")
                     else:
-                        append_to_file(ID, f"Verify personalized elements execution failed\nReason:{response},Verification token consumption:{token3[2]}\n")
-                        append_to_file(ID, f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
+                        append_to_file(ID,
+                                       f"Verify personalized elements execution failed\nReason:{response},Verification token consumption:{token3[2]}\n")
+                        append_to_file(ID,
+                                       f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
                         print("Verify personalized elements execution failed")
                 else:
                     print("Precise Command Execution Phase Failed")
@@ -167,11 +167,14 @@ def explore_solve(instruction, api_url, TOKEN, model, ID):
                     if "Success" in response:
                         append_to_file(ID,
                                        f"Verify personalized elements execution success\nReason:{response},Verification token consumption:{token3[2]},Personalized elements:{tmp}\n")
-                        append_to_file(ID, f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
+                        append_to_file(ID,
+                                       f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
                         print("Verify personalized elements execution success")
                     else:
-                        append_to_file(ID, f"Verify personalized elements execution failed\nReason:{response},Verification token consumption:{token3[2]}\n")
-                        append_to_file(ID, f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
+                        append_to_file(ID,
+                                       f"Verify personalized elements execution failed\nReason:{response},Verification token consumption:{token3[2]}\n")
+                        append_to_file(ID,
+                                       f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
                         print("Verify personalized elements execution failed")
                 else:
                     print("Precise Command Execution Phase Failed")
@@ -194,12 +197,16 @@ def explore_solve(instruction, api_url, TOKEN, model, ID):
                 response, token3 = inference_chat2(chat_history, model, api_url, TOKEN)
                 print(response)
                 if "Success" in response:
-                    append_to_file(ID, f"Verify personalized elements execution success\nReason:{response},Verification token consumption:{token3[2]}\n")
-                    append_to_file(ID, f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
+                    append_to_file(ID,
+                                   f"Verify personalized elements execution success\nReason:{response},Verification token consumption:{token3[2]}\n")
+                    append_to_file(ID,
+                                   f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
                     print("Verify personalized elements execution success")
                 else:
-                    append_to_file(ID, f"Verify personalized elements execution failed\nReason:{response},Verification token consumption:{token3[2]}\n")
-                    append_to_file(ID, f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
+                    append_to_file(ID,
+                                   f"Verify personalized elements execution failed\nReason:{response},Verification token consumption:{token3[2]}\n")
+                    append_to_file(ID,
+                                   f"Personalized information extraction and instruction generation token consumption:{all_token}\n")
                     print("Verify personalized elements execution failed")
             else:
                 print("Precise Command Execution Phase Failed")
@@ -214,9 +221,12 @@ config = {
     "difficulty": 0,
     "API_url": "",  # gpt baseurl
     "token": "",  # gpt token
-    "add_info": "When you cannot open the app using open app, please try clicking the app's icon to open it.",#Add some extra information you want to provide to the large model
-    "personalization_switch": True,  # Enable personalized features if tasks require personalized instructions, opening will slow down the speed
-    "explore_switch": True  # Enable active exploration information feature, which is the active acquisition of personalized information
+    "add_info": "When you cannot open the app using open app, please try clicking the app's icon to open it.",
+    #Add some extra information you want to provide to the large model
+    "personalization_switch": True,
+    # Enable personalized features if tasks require personalized instructions, opening will slow down the speed
+    "explore_switch": True
+    # Enable active exploration information feature, which is the active acquisition of personalized information
 }
 
 instruction_id = "1"

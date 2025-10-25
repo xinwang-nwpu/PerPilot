@@ -43,7 +43,7 @@ def type(adb_path, text):
             if buffer:
                 send(['input', 'text', ''.join(buffer).replace(' ', '%s')])
                 buffer.clear()
-            send(['input', 'keyevent', '代码.txt'])
+            send(['input', 'keyevent', '66'])
         elif char == ' ':
             buffer.append('%s')
         elif char in ordinary:
