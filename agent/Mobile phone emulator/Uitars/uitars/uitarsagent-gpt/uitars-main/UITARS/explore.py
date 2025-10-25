@@ -238,7 +238,7 @@ while int(instruction_id) <= 75:
     try:
         config = update_config_instruction(config, "pre-instruction.json", instruction_id)
         if config["explore_switch"]:
-            explore_solve(config["instruction"], config["API_url"], config["token"], "qwen-max", instruction_id)
+            explore_solve(config["instruction"], config["API_url"], config["token"], "o4-mini", instruction_id)
         elif config["personalization_switch"]:
             history = personalization_chat(config["instruction"], [])
             config["instruction"] = personalization_solve(config["instruction"], history, config["deep_api_url"],
