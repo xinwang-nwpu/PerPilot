@@ -14,7 +14,7 @@ from prompt import get_explore_prompt
 from run2 import run #Encapsulate the agent's execution code as run
 
 def home(adb_path):
-    command = adb_path + f"shell am start -a android.intent.action.MAIN -c android.intent.category.HOME"
+    command = adb_path + f" shell am start -a android.intent.action.MAIN -c android.intent.category.HOME"
     subprocess.run(command, capture_output=True, text=True, shell=True)
 
 
