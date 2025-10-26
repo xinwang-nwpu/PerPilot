@@ -241,10 +241,38 @@ while int(instruction_id) <= 75:
             config["instruction"] = personalization_solve(config["instruction"], history, config["API_url"],
                                                           config["token"])
             explore_switch = False
-            run(explore_switch, config["instruction"], instruction_id, config["difficulty"])
+            result=run(explore_switch, config["instruction"], instruction_id, config["difficulty"])
+            if result:
+                chat_history = verify_all_chat(int(instruction_id), config["instruction"])
+                response, token3 = inference_chat2(chat_history, "o4-mini", config["API_url"], config["token"])
+                print(response)
+                if "Success" in response:
+                    append_to_file(int(instruction_id),
+                                   f"Verify personalized elements execution success\nReason:{response},Verification token consumption:{token3[2]}\n")
+                    print("Verify personalized elements execution success")
+                else:
+                    append_to_file(int(instruction_id),
+                                   f"Verify personalized elements execution failed\nReason:{response},Verification token consumption:{token3[2]}\n")
+                    print("Verify personalized elements execution failed")
+            else:
+                print("Precise Command Execution Phase Failed")
         else:
             explore_switch = False
-            run(explore_switch, config["instruction"], instruction_id, config["difficulty"])
+            result=run(explore_switch, config["instruction"], instruction_id, config["difficulty"])
+            if result:
+                chat_history = verify_all_chat(int(instruction_id), config["instruction"])
+                response, token3 = inference_chat2(chat_history, "o4-mini", config["API_url"], config["token"])
+                print(response)
+                if "Success" in response:
+                    append_to_file(int(instruction_id),
+                                   f"Verify personalized elements execution success\nReason:{response},Verification token consumption:{token3[2]}\n")
+                    print("Verify personalized elements execution success")
+                else:
+                    append_to_file(int(instruction_id),
+                                   f"Verify personalized elements execution failed\nReason:{response},Verification token consumption:{token3[2]}\n")
+                    print("Verify personalized elements execution failed")
+            else:
+                print("Precise Command Execution Phase Failed")
 
         instruction_id = str(int(instruction_id) + 1)
     except Exception as e:
